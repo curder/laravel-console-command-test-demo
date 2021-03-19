@@ -15,6 +15,7 @@ jobs:
         include:
           - laravel: 8.*
             testbench: 6.*
+    # more see: https://github.com/shivammathur/setup-php/blob/master/examples/laravel-mysql.yml
     services:
       mysql:
         image: mysql:5.7
