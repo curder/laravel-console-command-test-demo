@@ -47,7 +47,6 @@ class UserImportCommand extends Command
      */
     public function handle() : int
     {
-
         $url = $this->option('url') ?: $this->ask('Please provider the URL to the users');
 
         $response = Http::get($url);
