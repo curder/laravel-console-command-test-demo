@@ -13,9 +13,12 @@ php artisan import:users
 # 或者
 php artisan import:users --url=https://randomuser.me/api/?results=7&inc=gender,email,nat,phone
 ```
-            
+
 > **API地址**: https://randomuser.me/api/?results=7&inc=gender,email,nat,phone
 
+
+- laravel 拓展包 [curder/laravel-package-demo](https://github.com/curder/laravel-package-demo)
+- php 拓展包 [curder/php-package-demo](https://github.com/curder/php-package-demo)
 
 ## 1. 下载
 
