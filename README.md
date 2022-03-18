@@ -3,6 +3,7 @@
 命令行相关测试样例。
 
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/curder/laravel-console-command-test-demo/run-tests?label=tests)](https://github.com/curder/laravel-console-command-test-demo/actions?query=workflow%3ATests+branch%3Amaster)
+[![PHPStan](https://github.com/curder/laravel-console-command-test-demo/actions/workflows/phpstan.yml/badge.svg?branch=master)](https://github.com/curder/laravel-console-command-test-demo/actions/workflows/phpstan.yml)
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/curder/laravel-console-command-test-demo/Check%20&%20fix%20styling?label=code%20style)](https://github.com/curder/laravel-console-command-test-demo/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amaster)
 
 使用命令行获取远程API接口数据存储到当前数据库。
