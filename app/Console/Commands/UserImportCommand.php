@@ -45,7 +45,7 @@ class UserImportCommand extends Command
      *
      * @return int
      */
-    public function handle() : int
+    public function handle(): int
     {
         $url = $this->option('url') ?: $this->ask('Please provider the URL to the users');
 

@@ -16,7 +16,7 @@ class UserImportCommandTest extends TestCase
 {
     use RefreshDatabase;
 
-    protected function setUp() : void
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -35,7 +35,7 @@ class UserImportCommandTest extends TestCase
 
         $this->assertCount(7, User::all());
 
-        $this->assertDatabaseHas((new User)->getTable(), [
+        $this->assertDatabaseHas((new User())->getTable(), [
             "gender" => "male",
             "email" => "onni.hannula@example.com",
             "phone" => "05-807-224",
